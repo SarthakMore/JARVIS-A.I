@@ -9,7 +9,7 @@ import os
 
 
 
-genai.configure(api_key="AIzaSyCfnKsEBuvWgsT0cSWZA9vWJzmG9y2AfEI") # Replace with your Gemini API key
+genai.configure(api_key="") # Replace with your Gemini API key
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')

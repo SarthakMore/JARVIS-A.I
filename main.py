@@ -3,13 +3,13 @@ import pyttsx3
 import datetime
 import wikipedia
 import webbrowser
-import google.generativeai as genai  # Import the Gemini API library
+import google.generativeai as genai  
 import pyaudio
 import os
 
 
 
-genai.configure(api_key="") # Replace with your Gemini API key
+genai.configure(api_key="AIzaSyCfnKsEBuvWgsT0cSWZA9vWJzmG9y2AfEI")  # Set your Gemini API key here
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
